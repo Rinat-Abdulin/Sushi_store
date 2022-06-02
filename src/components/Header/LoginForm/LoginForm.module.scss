@@ -1,0 +1,40 @@
+.LoginForm {
+  position: relative;
+  width: 360px;
+  height: 340px;
+  background: #2b2d2f;
+  margin: 0 auto;
+  text-align: center;
+  padding: 40px 0 0 0;
+  color: white;
+  z-index: 5000;
+
+  & .Title {
+    padding-bottom: 20px;
+  }
+
+  & .LogIn {
+    margin-bottom: 20px;
+  }
+
+  & .LogInInput {
+    margin-bottom: 10px;
+  }
+
+  & .To_subscribe {
+    color: aqua;
+
+    &:hover {
+      color: blue;
+    }
+  }
+
+  & .LoginButton {
+    margin: 10px;
+
+    &:hover {
+      font-weight: bold;
+      background: gray;
+    }
+  }
+}

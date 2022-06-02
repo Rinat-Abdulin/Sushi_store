@@ -1,0 +1,22 @@
+.AboutDelivery_page {
+  width: 100%;
+  height: 100vh;
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: white;
+  background-image: url(http://winallos.com/uploads/posts/2014-06/1403788002_520596-1920x1200.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  h2 {
+    color: red;
+  }
+
+  & ul li {
+    width: 100%;
+    height: 100px;
+    text-align: left;
+  }
+}

@@ -1,0 +1,37 @@
+.ChooseRegion {
+  width: 380px;
+  height: 310px;
+  background: #2b2d2f;
+  position: relative;
+  text-align: left;
+  margin: 0 auto;
+  top: 200%;
+  padding: 50px 0 0 80px;
+  color: white;
+  z-index: 5000;
+
+  & .Title {
+    padding: 0 0 10px 5px;
+    margin: 0 0 70px -5px;
+    color: red;
+    font-weight: unset;
+  }
+
+  & .ChooseRegion__List {
+    display: flex;
+    flex-direction: column;
+
+    & li {
+      width: 250px;
+      height: 20px;
+      padding: 5px;
+      margin-bottom: 15px;
+      font-size: 16px;
+
+      &:hover {
+        color: red;
+        cursor: pointer;
+      }
+    }
+  }
+}

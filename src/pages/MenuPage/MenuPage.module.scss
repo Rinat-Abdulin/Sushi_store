@@ -1,0 +1,10 @@
+.MenuPage {
+  width: calc(100% - 274px);
+  margin-left: 274px;
+  margin-top: 64px;
+  min-height: calc(100vh - 64px);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: black;
+  padding: 20px;
+}

@@ -1,0 +1,141 @@
+.footer_main {
+  background: #2b2d2f;
+  position: relative;
+  min-width: 684px;
+  padding: 32px 0 0 0;
+  color: #888;
+  font-size: 0.875rem;
+  z-index: 3;
+}
+
+.container {
+  min-width: 960px;
+  margin: 0 auto;
+  padding: 0 32px 0 64px;
+  transition: all 200ms ease;
+}
+
+.footer_main .col {
+  display: block;
+  margin-right: 2.3%;
+  width: auto;
+  height: auto;
+
+}
+
+.footer_main div {
+  display: flex;
+}
+
+.footer_main .col:last-child {
+  margin-right: 0;
+}
+
+.footer_main a {
+  border-bottom-color: transparent;
+  color: #c0c0c0;
+}
+
+.logo_main {
+  border: none;
+  display: inline-block;
+  width: 170px;
+  height: 36px;
+  vertical-align: middle;
+}
+
+.logo-main img {
+  height: 36px;
+}
+
+.footer_main__title {
+  font-family: 'core_rhino_45_regular', Helvetica, Arial, 'Helvetica CY',
+    'Nimbus Sans L', sans-serif;
+  font-style: normal;
+}
+.footer_main__title1 {
+  font-family: 'core_rhino_45_regular', Helvetica, Arial, 'Helvetica CY',
+    'Nimbus Sans L', sans-serif;
+  font-style: normal;
+  padding-top: 20px;
+}
+
+.nav_list__item {
+  padding-left: 0;
+}
+
+button {
+  width: 160px;
+  height: 35px;
+}
+
+ul li {
+  position: relative;
+  list-style: none outside;
+  margin-bottom: 8px;
+  padding-left: 28px;
+  width: 350px;
+  height: auto;
+}
+
+a:hover {
+  color: red;
+  cursor: pointer;
+}
+
+.footer_main p {
+  margin: 0 0 20px 0;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  transition: all 200ms ease;
+  background-color: transparent;
+}
+
+.mobile_btn {
+  margin: 26px 0 0;
+  height: auto;
+  padding: 8px 13px;
+  font-size: 12px;
+  line-height: 12px;
+  font-weight: 100;
+  color: #888;
+  border: 1px solid #888888;
+  border-radius: 4px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.mobile_btn:hover {
+  opacity: 0.45;
+}
+
+.footer_main__bottom {
+  border-top: 1px solid #44474a;
+  height: 64px;
+  margin-top: 16px;
+  line-height: 64px;
+  text-align: center;
+}
+
+.social_links {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.social_links__item {
+  border: 1px solid #44474a;
+  border-width: 0 1px 0 0;
+  display: inline-block;
+  width: 64px;
+  height: 64px;
+  line-height: 64px;
+  vertical-align: top;
+  fill: #888;
+}
+
+.col span {
+  margin-left: -440px;
+}
